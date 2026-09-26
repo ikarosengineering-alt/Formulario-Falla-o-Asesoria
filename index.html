@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<form action="https://formspree.io/f/xppwybgd" method="post">
+  
+</form>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Automatización & Control Industrial | Diagnóstico Express</title>
+  <style>
+    body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: var(--text-dark);
+  margin: 0; 
+  padding: 15px;
+
+  /* === CÓDIGO DE MARCA DE AGUA CENTRADA === */
+  background-color: var(--bg-color);
+  
+  /* 1. Imagen con capa de opacidad para no afectar la lectura */
+  background-image: 
+    linear-gradient(rgba(248, 249, 250, 0.92), rgba(248, 249, 250, 0.92)),
+    url('C:\\DATOS\\IKAROS\\PAGINA WEB\\Imagen\\log ika only.jpg'); /* Tu logo o imagen */
+
+  /* 2. Evita que la imagen se repita en azulejo */
+  background-repeat: no-repeat;
+
+  /* 3. Centra la imagen perfectamente en la pantalla */
+  background-position: center center;
+
+  /* 4. Mantiene la marca de agua fija al hacer scroll en móviles */
+  background-attachment: fixed;
+
+  /* 5. Tamaño de la marca de agua */
+  background-size: 1280px auto; /* Define el ancho exacto (ej. 280px) para que no ocupe toda la pantalla */
+}
+    :root {
+      --bg-color: #F8F9FA;
+      --text-dark: #0A2540;
+      --cta-orange: #FF6B00;
+      --wa-green: #25D366;
+      --border-gray: #CBD5E1;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-dark);
+      margin: 0; 
+      padding: 15px;
+    }
+    
+    /* Contenedor del Encabezado */
+    .header-container {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    /* Estilo para el Logo */
+    .logo-img {
+      max-width: 180px;
+      height: auto;
+      margin-bottom: 12px;
+    }
+
+    .hero h1 { font-size: 1.5rem; color: var(--text-dark); margin-bottom: 8px; }
+    .hero p { font-size: 0.95rem; color: #475569; margin: 0 0 15px 0; }
+    
+    /* Estilo para la imagen ilustrativa principal */
+    .banner-img {
+    
+  
+      width: 100%;
+      max-height:200px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      border: 1px solid var(--border-gray);
+  
+    }
+
+
+    /* Card del Formulario */
+    .form-card {
+      background: #FFFFFF;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      border: 1px solid var(--border-gray);
+    }
+    .form-group { margin-bottom: 15px; }
+    label { display: block; font-weight: bold; font-size: 0.85rem; margin-bottom: 5px; }
+    input, select {
+      width: 100%; padding: 12px;
+      border: 1px solid var(--border-gray);
+      border-radius: 6px; font-size: 0.95rem; box-sizing: border-box;
+    }
+    .btn-submit {
+      width: 100%; background-color: var(--cta-orange);
+      color: #FFFFFF; border: none; padding: 14px;
+      border-radius: 6px; font-weight: bold; font-size: 1rem; cursor: pointer;
+    }
+    
+    /* Botón Flotante WhatsApp */
+    .wa-float {
+      position: fixed; bottom: 20px; right: 20px;
+      background-color: var(--wa-green); color: white;
+      border-radius: 50px; padding: 12px 18px;
+      display: flex; align-items: center; gap: 8px;
+      text-decoration: none; font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2); z-index: 1000;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header-container hero">
+
+    <h1>Soporte & Integración de Automatización Industrial</h1>
+    <p>Asesoría técnica en planta y suministro de componentes en menos de 24 horas.</p>
+    
+    <!-- OPCIÓN 2: BANNER O IMAGEN DEL SERVICIO/EQUIPO -->
+    <!-- Reemplaza la URL por una foto de un PLC, tablero o técnico trabajando -->
+   
+  </header>
+
+  <main class="form-card">
+    <form action="https://formspree.io/f/xppwybgd" method="POST" enctype="multipart/form-data">
+      
+      <div class="form-group">
+        <label for="nombre">Nombre y Empresa:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ej. Ing. López - Planta Toluca" required>
+      </div>
+       <div class="form-group">
+        <label for="contacto">Teléfono o Correo:</label>
+        <input type="tel" id="contacto" name="contacto" placeholder="Ej. +52 1 55 1234 5678 o ejemplo@dominio.com" required>
+      </div>
+      <div class="form-group">
+        <label for="servicio">Servicio o Equipo Requerido:</label>
+        <select id="servicio" name="servicio" required>
+          <option value="">Selecciona una opción...</option>
+          <option value="PLC">Falla / Reemplazo de PLC</option>
+          <option value="Variador">Variador de Frecuencia / Drive</option>
+          <option value="Tablero">Integración de Tablero</option>
+          <option value="Asesoria">Asesoría Técnica General</option>
+           <option value="Otro">Otro</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="descripcion">Descripción del Problema o Requerimiento:</label>
+        <textarea id="descripcion" name="descripcion" rows="4" cols="100" placeholder="Describe brevemente la falla o el requerimiento..." required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="foto">Foto de la Placa o Falla del Equipo:</label>
+        <input type="file" id="foto" name="foto_placa" accept="image/*" capture="environment" required>
+      </div>
+
+      <button type="submit" class="btn-submit">Enviar para Diagnóstico Express</button>
+    </form>
+  </main>
+  <header class="header-container hero">
+
+    <p>"La asesoría técnica en planta y suministro de componentes son sujetos a disponibilidad"</p>
+
+  </header>
+  <a href="https://wa.me/+525511311805?text=Hola,%20requiero%20asesor%C3%ADa%20t%C3%A9cnica%20urgente" class="wa-float" target="_blank">
+    💬 Hablar con un Ingeniero
+  </a>
+
+</body>
+  </form>
+</html>
